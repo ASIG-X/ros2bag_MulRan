@@ -1,6 +1,6 @@
 # ros2bag_MulRan
 
-ros2bag_MulRan is a ROS2 pacakge for converting [MulRan dataset](https://sites.google.com/view/mulran-pr/home) raw data to ROS2 bag files. It is modified from the [official file player respository](https://github.com/RPM-Robotics-Lab/file_player_mulran). More information can be found there.
+ros2bag_MulRan is a ROS2 package for converting [MulRan dataset](https://sites.google.com/view/mulran-pr/home) raw data to ROS2 bag files. It is modified from the [official file player respository](https://github.com/RPM-Robotics-Lab/file_player_mulran). More information can be found there.
 
 ## Dependencies
 * Ubuntu 22.04
