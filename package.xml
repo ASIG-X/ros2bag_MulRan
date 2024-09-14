@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ros2bag_mulran</name>
+  <version>0.0.1</version>
+  <description>Writing raw MulRan data to ROS2 bag</description>
+  <maintainer email="ziyu.cao@liu.se">Ziyu Cao</maintainer>
+  <author email="kailai.li@liu.se">Kailai Li</author>
+  <author email="ziyu.cao@kit.com">Ziyu Cao</author>  
+
+  <license>GPLv3</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>builtin_interfaces</build_depend>
+  <depend>rclcpp</depend>
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>image_transport</depend>
+  <depend>cv_bridge</depend>
+  <depend>pcl_ros</depend>
+  <depend>pcl_conversions</depend>
+  <depend>pcl_msgs</depend>
+
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_lint_auto</test_depend>  
+  <exec_depend>builtin_interfaces</exec_depend>  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>  
+</package>
