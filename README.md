@@ -5,8 +5,8 @@ ros2bag_MulRan is a ROS2 version of the data converter that converts [raw data f
 ## Dependencies
 * Ubuntu 22.04
 * ROS2 Humble
-* PCL
-* OpenCV
+* [PCL](https://pointclouds.org/)
+* [OpenCV](https://opencv.org/)
 ```
 sudo apt install ros-humble-pcl*
 sudo apt install libopencv-dev
